@@ -1,0 +1,5 @@
+animal=input("pick an animal: ")
+color=input("Pick a color: ")
+vehicle=input("Pick a make and model of vehicle: ")
+city=input("Pick any city in the world: ")
+print("the",color,animal,"had driven the",vehicle,"into a building in",city, "at a downtown intersection.")

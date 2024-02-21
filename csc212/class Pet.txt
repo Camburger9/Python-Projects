@@ -1,0 +1,47 @@
+class Pet:
+
+    def __init__(self, name, speices,familytype, ownerName):
+        
+        self.name = name
+        self.speices = speices
+        self.familyType = familyType
+        self.ownerName = ownerName
+    def instances():
+        mylist = getdata
+        
+
+            
+
+        
+def getdata():
+    infile = open('petdata.txt', 'r')
+    numString = infile.readline() # reads one line at a time in order evertime its called
+    petinfo = []#empty list to assign the files values too.
+    while(numString!=""):
+        x = numString.split((" "))  
+        name = x[0]
+        speices = x[1]
+        familyType = x[2]
+        s1 = x[3] 
+        ownerName = s1.rstrip()
+        pets = Pet()
+        petinfo.append(pets)
+        numString = infile.readline()
+
+    return petinfo 
+        
+def main():
+    mylist = getdata
+    pet1 = str(mylist[0])
+    pet2 = mylist[1]
+    pet3 = mylist[2]
+    pet4 = mylist[3]
+    pet5 = mylist[4]
+    pet6 = mylist[5]
+    pet7 = mylist[6]
+    pet8 = mylist[7]
+    pet9 = mylist[8]
+
+    pet1.name()
+main()
+    
